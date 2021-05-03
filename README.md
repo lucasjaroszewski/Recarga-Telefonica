@@ -7,8 +7,13 @@ O projeto trata-se da implementação de uma API _(Application Programming Inter
 
 ## Perguntas a serem respondidas
 
-__Quais foram os principais desafios durante o desenvolvimento?__
+- __Quais foram os principais desafios durante o desenvolvimento?__
 
+O maior desafio foi desenvolver a comunicação do banco de dados __SQLAlchemy__ com a extensão __ RESTful do Flask__. Que são ferramentas que nunca tive contato, portanto, foi um desafio muito recompensador.
+
+A forma como o banco de dados é criado foi um grande desafio devido os produtos serem relacionados às empresas. Primeiramente, quando requisitados no servidor, as empresas não mostravam os produtos contidos no banco de dados, mas logo foi resolvido com o **@marshall_with** contido no __RESTful__ quando utilizado os _fields.Nested_.
+
+Outro desafio que destaco é quanto às requisições GET para consulta dos PhoneRecharges onde o filtro pode ser tanto o ‘**ID** da compra como o **PHONE_NUMBER** do usuário.
 
 
 - __O que você escolheu como arquitetura/framework/banco e por que?__
@@ -55,7 +60,6 @@ pip install -r requirements.txt
 # Execute o servidor
 python run.py
 ```
-.
 
 ## Documentação
 
