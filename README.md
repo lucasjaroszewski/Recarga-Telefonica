@@ -8,24 +8,25 @@ O projeto trata-se da implementação de uma API _(Application Programming Inter
 ## Perguntas a serem respondidas
 __Quais foram os principais desafios durante o desenvolvimento?__
 
-__O que você escolheu como arquitetura/framework/banco e por quê?__
+__O que você escolheu como arquitetura/framework/banco e por que?__
+
+
 
 __O que falta desenvolver / como poderíamos melhorar o que você entregou?__
 
-__Python é a melhor escolha para esta atividade? Por que?__
+__ Python é a melhor escolha para esta atividade? Por que?__
 
 
 ## Como executar o projeto
 
 ### Sem Docker
 
-É recomendado que se utilize o ambiente virtual do Python _(virtualenv)_ para que não aconteçam conflitos de dependências entre outros projetos.
+É recomendado que se utilize o ambiente virtual do Python _(virtualenv)_ para que não ocorram conflitos de dependências entre outros projetos.
 
 ```bash
+# Instale do ambiente virtual
 pip install virtualenv
-```
 
-```bash
 # Clone o repositório
 git clone https://github.com/lucasjaroszewski/Recarga-Telefonica
 
