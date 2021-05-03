@@ -62,8 +62,25 @@ python run.py
 
 ## Documentação
 
-### Métodos
+### Métodos GET
+
+```bash
+# GET /CompanyProducts/
+# GET /CompanyProducts/<string:company_id>
+# GET /PhoneRecharges/
+# GET /PhoneRecharges/<string:id>
+# GET /PhoneRecharges/<string:phone_number>
+```
+
 ### Testes
-### API Endpoints
 
+```bash
+# Criar database
+python database.py
 
+# Test 1 - CompanyProducts
+test_companyproducts.py
+
+# Test 2 - PhoneRecharges
+test_phonerecharges.py
+```
