@@ -1,8 +1,6 @@
 # Desafio: Recarga Telefônica
 
-## Sobre o desafio
-
-Due Gatti is a full stack application for web and mobile. It was built to a well-known neighbourhood store. With the beginning of the pandemic, there was a need for innovation as the store had to keep their doors closed. The website was built with Django Framework (Python) as back-end and VueJS (Javascript) as front-end, relying on Stripe for online payments.
+O projeto trata-se da implementação de uma API __(Application Programming Interface)__ para uma empresa que disponibiliza a compra de recargas para celulares. Os principais recursos a serem implementados são: a manutenção do CRUD __(Create, Read, Update and Delete)__  quanto as chamadas feitas ao backend relacionadas as empresas; e a efetivação da recarga ao celular do usuário pelo método POST e requisições GET para busca de dados.
 
 
 ## Perguntas a serem respondidas
@@ -25,4 +23,5 @@ git clone https://github.com/lucasjaroszewski/Recarga-Telefonica
 ## Documentação
 
 ### Métodos
+
 
