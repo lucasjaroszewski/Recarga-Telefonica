@@ -6,13 +6,13 @@ O projeto trata-se da implementação de uma API _(Application Programming Inter
 
 
 ## Perguntas a serem respondidas
-_Quais foram os principais desafios durante o desenvolvimento?_
+__Quais foram os principais desafios durante o desenvolvimento?__
 
-_O que você escolheu como arquitetura/framework/banco e por quê?_
+__O que você escolheu como arquitetura/framework/banco e por quê?__
 
-_ O que falta desenvolver / como poderíamos melhorar o que você entregou?_
+__O que falta desenvolver / como poderíamos melhorar o que você entregou?__
 
-_Python é a melhor escolha para esta atividade? Por que?_
+__Python é a melhor escolha para esta atividade? Por que?__
 
 
 ## Como executar o projeto
