@@ -1,6 +1,6 @@
 # Desafio: Recarga Telefônica
 
-O projeto trata-se da implementação de uma API __(Application Programming Interface)__ para uma empresa que disponibiliza a compra de recargas para celulares. Os principais recursos a serem implementados são: a manutenção do CRUD __(Create, Read, Update and Delete)__  quanto as chamadas feitas ao backend relacionadas as empresas; e a efetivação da recarga ao celular do usuário pelo método POST e requisições GET para busca de dados.
+O projeto trata-se da implementação de uma API _(Application Programming Interface)_ para uma empresa que disponibiliza a compra de recargas para celulares. Os principais recursos a serem implementados são: a manutenção do CRUD _(Create, Read, Update and Delete)_  quanto as chamadas feitas ao backend relacionadas as empresas; e a efetivação da recarga ao celular do usuário pelo método POST e requisições GET para busca de dados.
 
 
 ## Perguntas a serem respondidas
