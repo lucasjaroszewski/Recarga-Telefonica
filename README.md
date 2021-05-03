@@ -14,7 +14,7 @@ __O que você escolheu como arquitetura/framework/banco e por que?__
 
 __O que falta desenvolver / como poderíamos melhorar o que você entregou?__
 
-__ Python é a melhor escolha para esta atividade? Por que?__
+__Python é a melhor escolha para esta atividade? Por que?__
 
 
 ## Como executar o projeto
