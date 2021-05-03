@@ -2,28 +2,25 @@
 
 O projeto trata-se da implementação de uma API _(Application Programming Interface)_ para uma empresa que disponibiliza a compra de recargas para celulares. Os principais recursos a serem implementados são: a manutenção do CRUD _(Create, Read, Update and Delete)_  quanto as chamadas feitas ao back-end relacionadas às empresas; e a efetivação da recarga ao celular do usuário pelo método POST e requisições GET para busca de dados.
 
-## Comentários sobre o desafio
-
-
 ## Perguntas a serem respondidas
 
 - __Quais foram os principais desafios durante o desenvolvimento?__
 
-O maior desafio foi desenvolver a comunicação do banco de dados __SQLAlchemy__ com a extensão __RESTful do Flask__. Que são ferramentas que nunca tive contato, portanto, foi um desafio muito recompensador.
+O maior desafio foi desenvolver a comunicação do banco de dados __SQLAlchemy__ com a __Flask Framework__. Como são ferramentas que não tive contato prévio, ter sido posto em prova para resolver os problemas, foi muito recompensador.
 
-A forma como o banco de dados é criado foi um grande desafio devido os produtos serem relacionados às empresas. Primeiramente, quando requisitados no servidor, as empresas não mostravam os produtos contidos no banco de dados, mas logo foi resolvido com o **@marshall_with** contido no __RESTful__ quando utilizado os _fields.Nested_.
+A estruturação dos modelos compostos pelo banco de dados e suas relações se mostraram de difícil acesso . Primeiramente, quando requisitados no servidor, as empresas não mostravam os produtos contidos no banco de dados, mas logo foi resolvido com o **marshall_with** contido no __RESTful__ quando utilizado os _fields.Nested_.
 
-Outro desafio que destaco é quanto às requisições GET para consulta dos PhoneRecharges onde o filtro pode ser tanto o **ID** da compra como o **PHONE_NUMBER** do usuário. Onde utilizo uma série de condições para filtrar o necessário.
+Outra questão que destaco, é quanto às requisições GET para consulta dos PhoneRecharges onde o filtro pode ser tanto o **ID** da compra como o **PHONE_NUMBER** do usuário. Desta forma, utilizo uma série de condições para filtrar o necessário.
 
 - __O que você escolheu como arquitetura/framework/banco e por que?__
 
-A arquitetura escolhida foi a de __Packages__ desenvolvida dentro da __Flask Framework__. No início, a estrutura constituída por um único arquivo ficou confusa, o que dificultou a manutenção do código, portanto, reorganizei o projeto em vários módulos para que ficasse mais legível e organizado. A opção por Flask se deu por se tratar de uma framework simples de se utilizar, com muita documentação disponível e a extensão RESTful que facilitou a implementação do API.
+A arquitetura escolhida foi a de __Packages__ desenvolvida dentro da __Flask Framework__. Inicialmente estruturei o código em um único arquivo, porém ao analisar que dificultaria a manutenção do mesmo, reorganizei em diversos módulos resultando em um projeto mais legível e organizado. Por ser uma framework simples de se utilizar, com diversas documentações disponíveis, foi escolhido o Flask e a extensão RESTful que facilitou a implementação do API.
 
-O banco de dados utilizado foi o __SQLAlchemy__ que tem uma ótima integração com o __Flask__ e sua extensão RESTful, facilitando a comunicação de relações _(relationship)_  entre os modelos criados no banco de dados.
+O banco de dados utilizado foi o __SQLAlchemy__ que tem uma ótima integração com o __Flask__ e sua extensão RESTful, facilitando a comunicação de relações _(relationship)_  entre os modelos criados.
 
 - __O que falta desenvolver?__ 
 
-Gostaria de ter realizado um sistema de segurança de acesso, que no momento, qualquer pessoa pode fazer um request válido ao servidor. A implementação do __Docker__ é algo que ajudaria imensamente na automatização do deploy.
+Gostaria de ter realizado um sistema de segurança de acesso, pois no momento qualquer pessoa pode fazer um request válido ao servidor. A implementação do __Docker__ é algo que ajudaria imensamente na automatização do deploy.
 
 A implementação está concluída com os testes básicos citados no desafio, acredito que mais testes devem ser implementados para melhores validações do API.
 
