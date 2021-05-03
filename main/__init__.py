@@ -18,5 +18,5 @@ from .api import CompanyProducts, PhoneRecharge
 from main import routes
 
 api = Api(app)
-api.add_resource(CompanyProducts, '/CompanyProducts/', '/CompanyProducts/<string:company_id>')
-api.add_resource(PhoneRecharge, '/PhoneRecharges/', '/PhoneRecharges/<string:id>')
+api.add_resource(CompanyProducts, '/CompanyProducts/', '/CompanyProducts/<string:company_id>', methods=['GET', 'PUT', 'PATCH', 'DELETE'])
+api.add_resource(PhoneRecharge, '/PhoneRecharges/', '/PhoneRecharges/<string:id>', methods=['GET', 'PUT'])
